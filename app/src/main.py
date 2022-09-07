@@ -37,6 +37,7 @@ GET_SPEED_REQUEST_TOPIC = "sampleapp/getSpeed"
 GET_SPEED_RESPONSE_TOPIC = "sampleapp/getSpeed/response"
 DATABROKER_SUBSCRIPTION_TOPIC = "sampleapp/currentSpeed"
 
+
 class SampleApp(VehicleApp):
     """
     Sample skeleton vehicle app.
@@ -74,7 +75,6 @@ class SampleApp(VehicleApp):
             DATABROKER_SUBSCRIPTION_TOPIC,
             json.dumps({"speed": vehicle_speed}),
         )
-
 
     # SampleApp subscribes to GET_SPEED_REQUEST_TOPIC
     # and executes the following method
