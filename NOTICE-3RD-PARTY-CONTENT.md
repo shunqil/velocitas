@@ -69,8 +69,8 @@
 ## Workflows
 | Dependency | Version | License |
 |:-----------|:-------:|--------:|
-|actions/checkout|v3|MIT License|
 |actions/checkout|v2|MIT License|
+|actions/checkout|v3|MIT License|
 |actions/download-artifact|v3.0.0|MIT License|
 |actions/setup-node|v1|MIT License|
 |actions/upload-artifact|v3.1.0|MIT License|
