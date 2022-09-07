@@ -37,7 +37,6 @@ GET_SPEED_REQUEST_TOPIC = "sampleapp/getSpeed"
 GET_SPEED_RESPONSE_TOPIC = "sampleapp/getSpeed/response"
 DATABROKER_SUBSCRIPTION_TOPIC = "sampleapp/currentSpeed"
 
-
 class SampleApp(VehicleApp):
     """
     Sample skeleton vehicle app.
@@ -99,7 +98,7 @@ class SampleApp(VehicleApp):
                 {
                     "result": {
                         "status": 0,
-                        "message": f"""Current Speed = {vehicle_speed}""",
+                        "message": f"""GET Speed = {data_str}, Current Speed = {vehicle_speed}""",
                     },
                 }
             ),
