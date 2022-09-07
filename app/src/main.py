@@ -75,6 +75,7 @@ class SampleApp(VehicleApp):
             json.dumps({"speed": vehicle_speed}),
         )
 
+
     # SampleApp subscribes to GET_SPEED_REQUEST_TOPIC
     # and executes the following method
     # when a message is published to GET_SPEED_REQUEST_TOPIC.
